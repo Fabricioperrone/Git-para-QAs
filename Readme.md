@@ -1,4 +1,4 @@
-## Git para Analista de teste | Analista Qualidade | QAs
+## Git para Tester | Analista Qualidade | QAs
 
 ### Comandos que mais utilizamos no Git
 
@@ -75,5 +75,36 @@ git push origin main
 ```
 Feito! 
 
+## Subindo para o Gitlab
 
+Depois do repisitório criado no GitLab, vamos subir nossa pasta para o GitLab.
 
+Primeiro vamos confirmar nosso user.
+```
+git config --global user.name "Fabrício Luis Perrone"
+```
+Logo em seguida vamos confirmar nosso e-mail.
+```
+git config --global user.name "Fabrício Luis Perrone"
+```
+Vamos dar um comamdo PWD para vermos se estamos no camninho certo. Um ls para vermos todos os arquivos da pasta.
+
+Vamos fazer a conexão com o repositório remoto.
+```
+git remote add origin https://gitlab.com/suportesubzeroinformatica/git-para-qas.git
+
+```
+```
+git add . 
+```
+Ponto (.) adiciona tudo que tem dentro da pasta.
+
+```
+git commit -m "Subindo o projeto"
+```
+Por último vamos fazer o push
+
+```
+git push -u origin master
+```
+Feito!
