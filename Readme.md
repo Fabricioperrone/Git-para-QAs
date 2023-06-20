@@ -47,12 +47,33 @@ O que significa _BRANCH_ ?
 
 Branch, em tradução literal, significa "ramo". No mundo da programação, ela tem o mesmo  siginificado: uma branch é uma ramificação do seu projeto. Os repositórios no GitHub funcionam  como uma árvore.
 
+Agora vamos subir nosso Readme.
+
+Abra o GitBash dentro da pasta do seu repositório local (pc)
+
+Use o comando:
+
 ```
-git remote add origin git@github.com:Fabricioperrone/Git-para-QAs.git
-git branch -M main
-git push -u origin main
-``` 
-Geralmente usado quando já existe um repositório no GitHub.
+git status
+```
+
+Para visualizar os arquivos para subir.
+
+Depois use o comando: 
+```
+git add .
+```
+Para adicionar os arquivos.
+
+Agora vamos fazer o commit:
+```
+git commit -m "Descrição do que está subindo"
+```
+Enfim vamos fazer o push:
+```
+git push origin main
+```
+Feito! 
 
 
 
